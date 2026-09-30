@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  font-size: 14px;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  transition: all 0.2s ease;
+}
+
+button:active,
+a:active {
+  transform: scale(0.98);
+}
